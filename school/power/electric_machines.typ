@@ -10,7 +10,7 @@
   - speed of rotation for a given frequency is determined by number of poles of the motor
   - Rating of synchronous motor given by VA and V
   Example:
-  #image("image.png")
+
 
 
 == Synchronous Generators
@@ -23,7 +23,6 @@
 
 
 == Induction Motor
-#image("image-3.png")
 - Two types of induction Machines
   - Wound rotor induction Machines
     - uses windings
@@ -31,7 +30,7 @@
     - uses bars
     - easier and cheaper to build
     - more robust
-    - not brushed so no sparks
+    - not brushed so no sparks    
 
 - Operation of stator windings in induction motor is the same as synchronous motor
 - Inducted voltage in the rotor is given by *$e_("induced") = (V times B) dot l$*
@@ -41,7 +40,6 @@
 - % difference between mechanical and electrical speed is known as *rotor slip* e.g. *$s = frac(n_s - n_("mech"), n_s)$* where $n_s$ is synchronous speed.
 #pagebreak()
 - Example:
-#image("image-4.png")
 
 
 

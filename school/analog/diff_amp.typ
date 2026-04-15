@@ -32,7 +32,6 @@
 #image("/assets/image1.png")
 -$Delta V_x = - (g_m Delta V) R_c$
 
-
 -$Delta V_y =  (g_m Delta V ) R_c $
 
 *Voltage Gain*
