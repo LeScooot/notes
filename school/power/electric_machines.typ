@@ -61,8 +61,8 @@
 - *Blocked rotor test*
  - clamp rotor so $s$ is larger
  - essentially shorts output - ignore magnetizing branch
-#image("assets/image-6.png")
-#image("assets/image-7.png")
+#image("assets/image-6.png", width:90%)
+#image("assets/image-7.png", width: 52%)
 #image("assets/image-8.png")
  - Assume $R_R$ and $R_R$ are equal above
  - Assume 3 phase power and voltages (L2L) above
