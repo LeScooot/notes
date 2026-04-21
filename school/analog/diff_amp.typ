@@ -46,16 +46,24 @@
 - Note that $V_p$ is AC ground
 - Allows us to deal with each branch independently in small signal (half circuit)
 #image("assets/image.png", width: 75%)
-  - $R_("in")$ for each branch in half circuit is $r_pi("1")+r_pi("2")$
-  -
+- $R_("in")$ for each branch in half circuit is $r_pi("1")+r_pi("2")$
 
 #pagebreak()
 = Active Load
- - We want to transform differential output into single ended output
+- We want to transform differential output into single ended output
   - Simply taking one differential output halves gain, and is not acceptable
- - We use current mirror load to solve this
+- We use current mirror load to solve this
 // #image("assets/image-1.png")
 #image("assets/image-2.png")
- - $I_R = (I_("EE")/2 + Delta I) - (I_("EE")/2 - Delta I)$\
-  * $therefore I_R = 2 dot Delta I$* \
- - Current mirror load doubles $V_("out")$ swing
+- $I_R = (I_("EE")/2 + Delta I) - (I_("EE")/2 - Delta I)$\
+* $therefore I_R = 2 dot Delta I$* \
+- Current mirror load doubles $V_("out")$ swing
+#pagebreak()
+- In this case node P is not virtual ground:
+#image("assets/image-3.png")
+- To find Av, take *$frac(V_"out", V_1 - V_2)$*, since output is single ended
+- if $M_3 = M_4$ in the above plot, then
+#image("assets/image-4.png")
+
+
+
