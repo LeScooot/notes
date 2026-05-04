@@ -9,3 +9,5 @@
 - Mechanical model/circuit for torque
 #image("assets/image-12.png",width: 50%),
 *Drive model on final exam*
+
+

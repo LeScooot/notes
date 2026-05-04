@@ -75,7 +75,9 @@ where
 - Miller effect increases $C_"in"$ by a factor relating to gain
   - As gain increases, $C_"in"$ increases, and bandwidth decreases, larger $C_"in"$ results in lower frequency pole
   - The input pole caused by $C_"in"$ is dominant over pole caused by $C_"out"$
+
 #pagebreak()
+
 - Miller's theorem is an approximation
 #image("assets/image-26.png", width: 75%)
  - Approximation diverges from reality as frequency increases
